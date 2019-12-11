@@ -1,11 +1,12 @@
 {
-    "name": "/",
+    "name": "funeralzone/looker-client",
     "description": "",
     "keywords": [
         "swagger",
         "php",
         "sdk",
-        "api"
+        "api",
+        "looker"
     ],
     "homepage": "http://swagger.io",
     "license": "proprietary",
@@ -28,9 +29,9 @@
         "friendsofphp/php-cs-fixer": "~2.12"
     },
     "autoload": {
-        "psr-4": { "Swagger\\Client\\" : "lib/" }
+        "psr-4": { "Funeralzone\\LookerClient\\" : "lib/" }
     },
     "autoload-dev": {
-        "psr-4": { "Swagger\\Client\\" : "test/" }
+        "psr-4": { "Funeralzone\\LookerClient\\" : "test/" }
     }
 }
